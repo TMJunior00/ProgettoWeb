@@ -1,0 +1,102 @@
+body {
+  background: url('../images/Calcetto.jpg') #0000004d;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media(max-width: 991px) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.h-access a:hover {
+  background-color: blue;
+}
+
+.rounded-4 {
+  background-color: #5f3afc;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.h-search-form {
+  width: 100%;
+  position: relative;
+}
+
+.h-search-form input {
+  width: 100%;
+  padding: 0 30px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  color: #333;
+  height: 70px;
+}
+
+.h-search-form button {
+  position: absolute;
+  right: 6px;
+  height: 60px;
+  border: none;
+  color: #fff;
+  background: #5f3afc;
+  top: 5px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.h-search-form button:hover {
+  background: blue;
+}
+
+.h-button-form a {
+  background: #5f3afc;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: .75rem 2rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.h-button-form a:hover {
+  background: blue;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  position: relative;
+}
+
+.social {
+  font-size: 24px;
+  color: #5f3afc;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.social:hover {
+  color: blue;
+}
